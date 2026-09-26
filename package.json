@@ -1,0 +1,23 @@
+{
+  "name": "aws-ml-associate-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render:video": "node scripts/render-video.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/three": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "latest",
+    "typescript": "latest"
+  }
+}
